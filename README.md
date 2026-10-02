@@ -41,11 +41,6 @@ node scripts/delegate.mjs "阅读以下文件，列出所有函数及其职责�
 
 可选环境变量：`DEEPSEEK_BASE_URL`（默认 `https://api.deepseek.com`）、`DEEPSEEK_MODEL`（默认 `deepseek-chat`）。
 
-## 隐私
-
-- 交接文档包含本机的对话内容，输出目录已加入 `.gitignore`，请勿提交。
-- API 密钥通过环境变量读取，代码中不包含任何密钥。
-
 ## 路线图
 
 - 根据任务类型自动判断应使用昂贵还是便宜模型；
