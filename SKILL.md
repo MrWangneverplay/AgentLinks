@@ -3,7 +3,10 @@ name: cross-agent-handoff
 description: Read local Codex and Claude Code session logs, build a compact cross-agent handoff, and delegate cheap reading/search work to a cheaper model so the orchestrating model focuses on framing and verification.
 ---
 
-# Cross-Agent Handoff
+# Agentlinks · cross-agent-handoff
+
+Project brand is **Agentlinks**; the skill name used for discovery is
+`cross-agent-handoff` — keep the `name` field above unchanged.
 
 Help an orchestrating agent resume prior work from other agents and split a task
 by cost and difficulty: keep framing, planning, and verification on the expensive
